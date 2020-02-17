@@ -3,6 +3,7 @@ package com.example.inputnama;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -18,5 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
         textNama = (EditText) findViewById(R.id.txtnama);
         hasil = (TextView) findViewById(R.id.lbl_nama);
+    }
+
+    public void tampilNama(View v) {
+        hasil.setText("Nama Anda: " + textNama.getText());
     }
 }
