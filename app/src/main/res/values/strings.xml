@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Input Nama</string>
-    <string name="lbl_Nama">Masukan Nama Anda</string>
+    <string name="lbl_nama">Masukan Nama Anda</string>
+    <string name="btn_tampil_nama">Tampilkan</string>
 </resources>
