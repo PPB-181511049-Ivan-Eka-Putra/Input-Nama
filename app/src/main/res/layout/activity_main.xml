@@ -28,4 +28,15 @@
         android:text="@string/btn_tampil_nama"
         android:id="@+id/btntampil"
         android:onClick="tampilnama" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/label2"
+        android:textSize="20sp"
+        android:layout_below="@id/btntampil"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="5dp" />
 </RelativeLayout>
