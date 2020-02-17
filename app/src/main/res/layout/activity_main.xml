@@ -20,4 +20,12 @@
         android:layout_below="@+id/lbl_nama"
         android:id="@+id/txtnama"
         android:inputType="none"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnama"
+        android:text="@string/btn_tampil_nama"
+        android:id="@+id/btntampil"
+        android:onClick="tampilnama" />
 </RelativeLayout>
