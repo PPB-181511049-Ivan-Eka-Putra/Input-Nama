@@ -3,8 +3,13 @@ package com.example.inputnama;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    EditText textNama;
+    TextView hasil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
